@@ -1,0 +1,33 @@
+/* CSS for Homepage */
+
+.page-title,
+.page-links-title {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.page-title {
+    color: orange;
+}
+
+.page-links-title {
+    font-size: 14px;
+    color: black;
+}
+
+.page-links-anchor {
+    text-align: center;
+}
+
+.page-links-items li{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+}
+
+#page-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
