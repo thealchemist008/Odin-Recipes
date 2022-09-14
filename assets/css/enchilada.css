@@ -1,0 +1,98 @@
+/* CSS for Enchilada Page */
+
+body {
+    background-color: palegoldenrod;
+}
+/* CSS STYLING FOR CLASS HEADER AND NAV */
+.page-title,
+.page-links {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.page-title {
+    color: orange;
+}
+
+.page-links-title {
+    font-size: 14px;
+    color: black;
+}
+
+.page-links-items li {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+}
+/* END OF STYLING FOR HEADER AND NAV */
+/* ----------------------------------------------------------------------------- */
+
+/* CSS STYLING FOR CLASS ARTICLE AND CHILD ELEMENTS */
+.recipe {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+#rec-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    height: 256px;
+}
+
+h3 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.div-main {
+    text-align: center;
+}
+
+.div-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.nutrition-facts p {
+    text-align: center;
+    font-weight: bold;
+}
+/* END OF STYLING FOR ARTICLE AND CHILD ELEMENTS */
+/* ----------------------------------------------------------------------------- */
+
+/* CSS STYLING FOR FOOTER AND CHILD ELEMENTS */
+
+#footer {
+    text-align: center;
+}
+
+
+/* .prep-info {
+    text-align: center;
+}
+
+.prep-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.ingredients-list {
+    text-align: center;
+}
+
+.ingredients-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.directions {
+    text-align: center;
+}
+
+.directions-items {
+    display: inline-block; 
+    text-align: left;
+} */
