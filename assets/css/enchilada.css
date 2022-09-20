@@ -12,6 +12,7 @@ body {
 
 .page-title {
     color: orange;
+    font-size: 75px;
 }
 
 .page-links-title {
@@ -29,7 +30,7 @@ body {
 /* ----------------------------------------------------------------------------- */
 
 /* CSS STYLING FOR CLASS ARTICLE AND CHILD ELEMENTS */
-.recipe {
+.recipe-name {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     text-align: center;
 }
@@ -47,30 +48,7 @@ h3 {
     text-align: center;
 }
 
-.div-main {
-    text-align: center;
-}
-
-.div-items {
-    display: inline-block; 
-    text-align: left;
-}
-
-.nutrition-facts p {
-    text-align: center;
-    font-weight: bold;
-}
-/* END OF STYLING FOR ARTICLE AND CHILD ELEMENTS */
-/* ----------------------------------------------------------------------------- */
-
-/* CSS STYLING FOR FOOTER AND CHILD ELEMENTS */
-
-#footer {
-    text-align: center;
-}
-
-
-/* .prep-info {
+.prep-info {
     text-align: center;
 }
 
@@ -79,20 +57,44 @@ h3 {
     text-align: left;
 }
 
-.ingredients-list {
+.ingredients-info {
     text-align: center;
 }
 
-.ingredients-items {
+.ingredients-info-items {
     display: inline-block; 
     text-align: left;
 }
 
-.directions {
+.directions-info {
     text-align: center;
 }
 
-.directions-items {
+.directions-info-items {
     display: inline-block; 
     text-align: left;
-} */
+}
+
+.nutrition p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.nutrition-info {
+    text-align: center;
+}
+
+.nutrition-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+
+/* END OF STYLING FOR ARTICLE AND CHILD ELEMENTS */
+/* ----------------------------------------------------------------------------- */
+
+/* CSS STYLING FOR FOOTER AND CHILD ELEMENTS */
+
+#footer {
+    text-align: center;
+}
