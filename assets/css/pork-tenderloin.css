@@ -1,0 +1,100 @@
+/* CSS for Pork Tenderloin Page */
+
+body {
+    background-color: palegoldenrod;
+}
+/* CSS STYLING FOR CLASS HEADER AND NAV */
+.page-title,
+.page-links {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.page-title {
+    color: orange;
+    font-size: 75px;
+}
+
+.page-links-title {
+    font-size: 14px;
+    color: black;
+}
+
+.page-links-items li {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+}
+/* END OF STYLING FOR HEADER AND NAV */
+/* ----------------------------------------------------------------------------- */
+
+/* CSS STYLING FOR CLASS ARTICLE AND CHILD ELEMENTS */
+.recipe-name {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+#rec-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    height: 256px;
+}
+
+h3 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.prep-info {
+    text-align: center;
+}
+
+.prep-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.ingredients-info {
+    text-align: center;
+}
+
+.ingredients-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.directions-info {
+    text-align: center;
+}
+
+.directions-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+.nutrition p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.nutrition-info {
+    text-align: center;
+}
+
+.nutrition-info-items {
+    display: inline-block; 
+    text-align: left;
+}
+
+
+/* END OF STYLING FOR ARTICLE AND CHILD ELEMENTS */
+/* ----------------------------------------------------------------------------- */
+
+/* CSS STYLING FOR FOOTER AND CHILD ELEMENTS */
+
+#footer {
+    text-align: center;
+}
