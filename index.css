@@ -1,18 +1,26 @@
 /* CSS for Homepage */
 
+body {
+    background-color: palegoldenrod;
+}
+
 .page-title,
-.page-links-title {
+.page-links {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     text-align: center;
 }
 
+
 .page-title {
     color: orange;
+    font-size: 75px;
 }
 
 .page-links-title {
     font-size: 14px;
     color: black;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
 }
 
 .page-links-anchor {
